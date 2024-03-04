@@ -1,0 +1,42 @@
+.conversion{
+    display: flex;
+}
+
+#convertBox{
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 175px;
+    border: 2px solid black;
+    border-radius: 2.5px;
+    height: 20px;
+}
+#convertButton{
+    margin-left: 2px;
+    margin-right: 2px;
+    height: 50px;
+    width: 75px;
+    background-color: white;
+    border: none;
+    background-image: url("ArrowOutline.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#outputDiv{
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-top: auto;
+    margin-bottom: auto;
+    min-width: fit-content;
+    width: 175px;
+    border: 2px solid black;
+    border-radius: 2.5px;
+    height: 20px;
+    
+}
+.output{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 2px;
+}

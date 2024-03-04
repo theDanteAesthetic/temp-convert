@@ -4,14 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="page.js"></script>
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
   <form>
-    <input type="number" name="temp" id="convertBox" placeholder="Input Temperature">
-    <input type="button" value="Convert!" id="convertButton">
-    <div>
-      <p class="output"></p>
+    <div class = conversion>
+      <input type="number" name="temp" id="convertBox" placeholder="Input Temperature">
+      <input type="button" value="Convert!  " id="convertButton">
+      <div id="outputDiv">
+        <p class="output"></p>
+      </div>
     </div>
     <div>
       <input type="radio" id="fahrenheit" name="convertType" value="fahrenheit" checked>
